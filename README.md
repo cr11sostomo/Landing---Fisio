@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Laravel + React Starter Kit
 
 ## Introduction
@@ -23,3 +24,6 @@ In order to ensure that the Laravel community is welcoming to all, please review
 ## License
 
 The Laravel + React starter kit is open-sourced software licensed under the MIT license.
+=======
+# Landing---Fisio
+>>>>>>> b8aab7a8960d2626c42bd6f94648ed75836e35f1
