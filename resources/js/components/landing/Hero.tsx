@@ -20,10 +20,10 @@ export default function Hero() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4">
-                    <a 
-                        href="#contatos" 
-                        className="group inline-flex items-center justify-center gap-2 rounded-full bg-[#A60303] px-8 py-4 text-base font-semibold text-white shadow-lg shadow-[#A60303]/30 transition-all duration-300 ease-out hover:scale-105 hover:bg-red-800"
-                    >
+                    <a href="https://api.whatsapp.com/send/?phone=553299895757"
+                    target="_blank"
+        rel="noopener noreferrer"
+                        className="group inline-flex items-center justify-center gap-2 rounded-full bg-[#A60303] px-8 py-4 text-base font-semibold text-white shadow-lg shadow-[#A60303]/30 transition-all duration-300 ease-out hover:scale-105 hover:bg-red-800">
                         Agendar Consulta
                         <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
                     </a>

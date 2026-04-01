@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 export default function Contacts() {
     return (
         <section id="contatos" className="py-24 px-4 bg-white relative">
-            <div className="container mx-auto max-w-5xl">
+            <div className="container mx-auto max-w-7xl">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold text-[#0D2C40] mb-4" style={{ fontFamily: "'Bree Serif', serif" }}>
                         Vamos Conversar?
@@ -16,39 +16,39 @@ export default function Contacts() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {/* Cartão Telefone/Whatsapp */}
-                    <div className="group rounded-3xl border border-gray-100 bg-white p-8 text-center shadow-lg shadow-gray-200/50 transition-all hover:-translate-y-2 hover:border-[#A60303]/30">
-                        <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-red-50 text-[#A60303] transition-colors group-hover:bg-[#A60303] group-hover:text-white">
-                            <Phone className="h-8 w-8" />
+                    <div className="group rounded-3xl border border-gray-100 bg-white p-10 min-h-[280px] flex flex-col justify-center text-center shadow-lg shadow-gray-200/50 transition-all hover:-translate-y-2 hover:border-[#A60303]/30">
+                        <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-red-50 text-[#A60303] transition-colors group-hover:bg-[#A60303] group-hover:text-white">
+                            <Phone className="h-10 w-10" />
                         </div>
                         <h3 className="mb-2 text-sm font-bold uppercase tracking-wider text-gray-400">Telefone / WhatsApp</h3>
-                        <p className="text-xl font-semibold text-[#0D2C40]">(XX) 9XXXX-XXXX</p>
+                        <p className="text-base font-semibold text-[#0D2C40]">(32) 99989-5757</p>
                     </div>
 
                     {/* Cartão Email */}
-                    <div className="group rounded-3xl border border-gray-100 bg-white p-8 text-center shadow-lg shadow-gray-200/50 transition-all hover:-translate-y-2 hover:border-[#A60303]/30">
-                        <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-red-50 text-[#A60303] transition-colors group-hover:bg-[#A60303] group-hover:text-white">
-                            <Mail className="h-8 w-8" />
+                    <div className="group rounded-3xl border border-gray-100 bg-white p-10 min-h-[280px] flex flex-col justify-center text-center shadow-lg shadow-gray-200/50 transition-all hover:-translate-y-2 hover:border-[#A60303]/30">
+                        <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-red-50 text-[#A60303] transition-colors group-hover:bg-[#A60303] group-hover:text-white">
+                            <Mail className="h-10 w-10" />
                         </div>
                         <h3 className="mb-2 text-sm font-bold uppercase tracking-wider text-gray-400">E-mail</h3>
-                        <p className="text-lg font-semibold text-[#0D2C40]">contato@heloisacosta.com.br</p>
+                        <p className="text-base font-semibold text-[#0D2C40]">heloisacosta.fisio@gmail.com</p>
                     </div>
                     
                     {/* Cartão Localização */}
-                    <div className="group rounded-3xl border border-gray-100 bg-white p-8 text-center shadow-lg shadow-gray-200/50 transition-all hover:-translate-y-2 hover:border-[#A60303]/30">
-                        <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-red-50 text-[#A60303] transition-colors group-hover:bg-[#A60303] group-hover:text-white">
-                            <MapPin className="h-8 w-8" />
+                    <div className="group rounded-3xl border border-gray-100 bg-white p-10 min-h-[280px] flex flex-col justify-center text-center shadow-lg shadow-gray-200/50 transition-all hover:-translate-y-2 hover:border-[#A60303]/30">
+                        <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-red-50 text-[#A60303] transition-colors group-hover:bg-[#A60303] group-hover:text-white">
+                            <MapPin className="h-10 w-10" />
                         </div>
-                        <h3 className="mb-2 text-sm font-bold uppercase tracking-wider text-gray-400">Atendimento</h3>
-                        <p className="text-lg font-semibold text-[#0D2C40]">Domiciliar<br/><span className="text-sm font-normal text-gray-500">Região de [Sua Cidade]</span></p>
+                        <h3 className="mb-2 text-sm font-bold uppercase tracking-wider text-gray-400">Atendimento Domiciliar</h3>
+                        <p className="text-base font-semibold text-[#0D2C40]">Verificar disponibilidade</p>
                     </div>
 
                     {/* Cartão Horários */}
-                    <div className="group rounded-3xl border border-gray-100 bg-white p-8 text-center shadow-lg shadow-gray-200/50 transition-all hover:-translate-y-2 hover:border-[#A60303]/30">
-                        <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-red-50 text-[#A60303] transition-colors group-hover:bg-[#A60303] group-hover:text-white">
-                            <Clock className="h-8 w-8" />
+                    <div className="group rounded-3xl border border-gray-100 bg-white p-10 min-h-[280px] flex flex-col justify-center text-center shadow-lg shadow-gray-200/50 transition-all hover:-translate-y-2 hover:border-[#A60303]/30">
+                        <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-red-50 text-[#A60303] transition-colors group-hover:bg-[#A60303] group-hover:text-white">
+                            <Clock className="h-10 w-10" />
                         </div>
                         <h3 className="mb-2 text-sm font-bold uppercase tracking-wider text-gray-400">Horários</h3>
-                        <p className="text-lg font-semibold text-[#0D2C40]">Seg a Sex<br/><span className="text-sm font-normal text-gray-500">08:00h às 18:00h</span></p>
+                        <p className="text-base font-semibold text-[#0D2C40]">Seg a Sex<br/><span className="text-sm font-normal text-gray-500">08:00h às 18:00h</span></p>
                     </div>
                 </div>
 
@@ -60,7 +60,7 @@ export default function Contacts() {
                             Pronta para iniciar o seu tratamento?
                         </h2>
                         <a 
-                            href="https://wa.me/5500000000000" 
+                            href="https://wa.me/553299895757" 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 rounded-full bg-green-500 px-8 py-4 text-base font-bold text-white shadow-lg transition-transform hover:scale-105 hover:bg-green-600"

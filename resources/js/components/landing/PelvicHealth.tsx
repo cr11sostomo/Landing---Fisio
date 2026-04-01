@@ -8,7 +8,7 @@ export default function PelvicHealth() {
                 <Sparkles className="h-96 w-96 text-[#0D2C40]" />
             </div>
 
-            <div className="container mx-auto max-w-4xl relative z-10 text-center">
+            <div className="container mx-auto max-w-6xl relative z-10 text-center">
                 <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-[#0D2C40] shadow-xl shadow-[#0D2C40]/20 text-white">
                     <ActivitySquare className="h-10 w-10" />
                 </div>
@@ -23,19 +23,19 @@ export default function PelvicHealth() {
                     <strong> segurança, acolhimento e privacidade.</strong>
                 </p>
 
-                <div className="inline-flex flex-col sm:flex-row items-center justify-center gap-6 mt-4">
-                    <div className="rounded-2xl border-2 border-[#A60303] bg-white px-8 py-4 shadow-lg shadow-[#A60303]/10">
-                        <p className="text-[#A60303] font-bold text-lg">Especialidade em Pélvica</p>
-                        <p className="text-sm text-gray-500 mt-1">Tratamentos voltados para o bem-estar íntimo</p>
+                <div className="inline-flex flex-col sm:flex-row items-center justify-center gap-6 mt-6">
+                    <div className="rounded-3xl border-2 border-[#A60303] bg-white px-10 py-6 shadow-xl shadow-[#A60303]/10 transform hover:scale-105 transition-transform">
+                        <p className="text-[#A60303] font-bold text-xl">Especialidade em Pélvica</p>
+                        <p className="text-base text-gray-500 mt-2">Tratamentos voltados para o bem-estar íntimo</p>
                     </div>
                 </div>
 
                 {/* Pode-se adicionar cards ilustrando diferentes condições aqui no futuro */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 text-left">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 text-left">
                     {['Reabilitação', 'Prevenção', 'Acolhimento'].map((item, idx) => (
-                        <div key={idx} className="rounded-2xl border bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                            <h3 className="text-xl font-bold text-[#0D2C40] mb-2">{item}</h3>
-                            <p className="text-gray-500 text-sm">Protocolos focados em garantir a funcionalidade e qualidade de vida da mulher moderna.</p>
+                        <div key={idx} className="rounded-3xl border bg-white p-8 md:p-10 min-h-[220px] flex flex-col justify-center shadow-md transition-all hover:shadow-lg hover:-translate-y-1">
+                            <h3 className="text-2xl font-bold text-[#0D2C40] mb-3">{item}</h3>
+                            <p className="text-gray-500 text-base leading-relaxed">Protocolos focados em garantir a funcionalidade e qualidade de vida da mulher moderna.</p>
                         </div>
                     ))}
                 </div>
