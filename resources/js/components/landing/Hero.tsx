@@ -16,7 +16,7 @@ export default function Hero() {
                 </h1>
                 
                 <p className="mb-10 max-w-2xl text-lg font-medium tracking-[0.2em] text-white/80 uppercase">
-                    -Fisioterapia Pélvica e Domiciliar -
+                    - Fisioterapia Pélvica -
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4">
