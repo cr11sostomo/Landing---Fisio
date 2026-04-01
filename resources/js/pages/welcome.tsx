@@ -10,7 +10,7 @@ export default function Welcome() {
     return (
         <div className="min-h-screen bg-white font-sans text-gray-900 scroll-smooth antialiased">
             <Head>
-                <title>Heloisa Costa - Fisioterapia Domiciliar</title>
+                <title>Heloisa Costa - Fisioterapia Pélvica</title>
                 {/* Carregando a fonte Bree Serif que era usada no design original */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
