@@ -1,32 +1,32 @@
-import { ActivitySquare, Sparkles } from 'lucide-react';
+import { ActivitySquare } from 'lucide-react';
 
 export default function PelvicHealth() {
     return (
-        <section id="saude-pelvica" className="py-24 px-4 bg-gray-50 relative overflow-hidden">
+        <section id="saude-pelvica" className="py-24 px-4 bg-gray-100 relative overflow-hidden">
             {/* Decoração de fundo */}
-            <div className="absolute top-0 right-0 -translate-y-12 translate-x-1/3 opacity-5">
-                <Sparkles className="h-96 w-96 text-[#0D2C40]" />
+            <div className="absolute right-0 -translate-y-12 translate-x-1/3 opacity-10">
+                <img src="/simbolo.png" alt="decoração" className="w-full h-full" />
             </div>
 
             <div className="container mx-auto max-w-6xl relative z-10 text-center">
                 <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-[#0D2C40] shadow-xl shadow-[#0D2C40]/20 text-white">
                     <ActivitySquare className="h-10 w-10" />
                 </div>
-                
+
                 <h2 className="mb-6 text-4xl md:text-5xl font-bold text-[#0D2C40]" style={{ fontFamily: "'Bree Serif', serif" }}>
                     Fisioterapia & Saúde Pélvica
                 </h2>
-                
+
                 <p className="mx-auto mb-10 max-w-2xl text-lg md:text-xl text-gray-600 leading-relaxed">
-                    Atendimento especializado com técnicas atuais e orientação constante. 
-                    Priorizamos o seu cuidado através de métodos que transmitem 
+                    Atendimento especializado com técnicas atuais e orientação constante.
+                    Priorizamos o seu cuidado através de métodos que transmitem
                     <strong> segurança, acolhimento e privacidade.</strong>
                 </p>
 
                 <div className="inline-flex flex-col sm:flex-row items-center justify-center gap-6 mt-6">
                     <div className="rounded-3xl border-2 border-[#A60303] bg-white px-10 py-6 shadow-xl shadow-[#A60303]/10 transform hover:scale-105 transition-transform">
                         <p className="text-[#A60303] font-bold text-xl">Especialidade em Pélvica</p>
-                        <p className="text-base text-gray-500 mt-2">Tratamentos voltados para o bem-estar íntimo</p>
+                        <p className="text-base text-gray-500 mt-2">Acompanhamento, prevenção e tratamento<br /> voltados para o bem-estar íntimo</p>
                     </div>
                 </div>
 

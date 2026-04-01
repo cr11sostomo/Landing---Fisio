@@ -31,9 +31,8 @@
         }
     </style>
 
-    <link rel="icon" href="/Logos-Pretas_1.png" sizes="any">
-    <link rel="icon" href="/Logos-Pretas_1.png" type="image/png">
-    <link rel="icon" href="/Logos-Pretas_1.png" type="image/png">
+    <link rel="icon" href="{{ asset('favicon.svg') }}" type="image/svg+xml">
+    <link rel="alternate icon" href="{{ asset('favicon.ico') }}">
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
