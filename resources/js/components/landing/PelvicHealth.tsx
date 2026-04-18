@@ -26,19 +26,47 @@ export default function PelvicHealth() {
                 <div className="inline-flex flex-col sm:flex-row items-center justify-center gap-6 mt-6">
                     <div className="rounded-3xl border-2 border-[#A60303] bg-white px-10 py-6 shadow-xl shadow-[#A60303]/10 transform hover:scale-105 transition-transform">
                         <p className="text-[#A60303] font-bold text-xl">Especialidade em Pélvica</p>
-                        <p className="text-base text-gray-500 mt-2">Acompanhamento, prevenção e tratamento<br /> voltados para o bem-estar íntimo</p>
+                        <p className="text-base text-gray-500 mt-2">Atendimento para diferentes fases e necessidades <br />  da saúde da mulher.</p>
                     </div>
                 </div>
 
                 {/* Pode-se adicionar cards ilustrando diferentes condições aqui no futuro */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 text-left">
-                    {['Reabilitação', 'Prevenção', 'Acolhimento'].map((item, idx) => (
-                        <div key={idx} className="rounded-3xl border bg-white p-8 md:p-10 min-h-[220px] flex flex-col justify-center shadow-md transition-all hover:shadow-lg hover:-translate-y-1">
-                            <h3 className="text-2xl font-bold text-[#0D2C40] mb-3">{item}</h3>
-                            <p className="text-gray-500 text-base leading-relaxed">Protocolos focados em garantir a funcionalidade e qualidade de vida da mulher moderna.</p>
+                    {[
+                        {
+                            id: 1,
+                            titulo: 'Prevenção',
+                            descricao:
+                                'Atenção preventiva para fortalecer o assoalho pélvico, favorecer o autoconhecimento e cuidar da sua saúde íntima.',
+                        },
+                        {
+                            id: 2,
+                            titulo: 'Gestação',
+                            descricao:
+                                'Suporte fisioterapêutico para promover bem-estar, preparo corporal e mais segurança nesse momento especial.',
+                        },
+                        {
+                            id: 3,
+                            titulo: 'Reabilitação',
+                            descricao:
+                                'Cuidado direcionado para tratar alterações já existentes e devolver mais conforto, confiança e qualidade de vida.',
+                        },
+                    ].map((card) => (
+                        <div
+                            key={card.id}
+                            className="rounded-3xl border bg-white p-8 md:p-10 min-h-[220px] flex flex-col justify-center shadow-md transition-all hover:shadow-lg hover:-translate-y-1"
+                        >
+                            <h3 className="text-2xl font-bold text-[#0D2C40] mb-3">
+                                {card.titulo}
+                            </h3>
+                            <p className="text-gray-500 text-base leading-relaxed">
+                                {card.descricao}
+                            </p>
                         </div>
                     ))}
                 </div>
+
+
             </div>
         </section>
     );
